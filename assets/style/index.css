@@ -136,12 +136,11 @@ nav .nav-list li {
         padding: 16px 24px;
         border-radius: 50px;
         background-color: #fff;
-        color: var(--font-color);
+        color: #000;;
         font-weight: 500;
 
         &:hover {
-            background-color: #5f1c29;
-            transition: background-color 0.25s ease-in-out;
+            box-shadow: 0 0 20px 5px rgba(244, 244, 244, 0.515); 
         }
     }
 }
@@ -150,8 +149,10 @@ nav .nav-list li {
 /*                             Map Section                                   */
 /*---------------------------------------------------------------------------*/
 .map {
-    height: 50svh;
-    width: 50%;
+    height: 60svh;
+    width: 70%;
+    padding: 40px;
+    margin: 40px;
 }
 /*---------------------------------------------------------------------------*/
 /*                               Footer                                      */

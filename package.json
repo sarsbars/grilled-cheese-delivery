@@ -1,0 +1,23 @@
+{
+  "name": "assignment-4",
+  "version": "1.0.0",
+  "description": "This is Assignment Four for the Third Party APIs course, a web application that displays the user's current location on a map.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarsbars/grilled-cheese-delivery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarsbars/grilled-cheese-delivery/issues"
+  },
+  "homepage": "https://github.com/sarsbars/grilled-cheese-delivery#readme",
+  "dependencies": {
+    "axios": "^1.9.0"
+  }
+}

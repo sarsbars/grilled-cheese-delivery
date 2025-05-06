@@ -13,6 +13,10 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+      <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+      <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+      <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.js"></script>
+      <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.css" type="text/css">
       <link rel="stylesheet" href="./assets/style/index.css" media="all">
       <script src="./assets/script/app.js" defer> </script>
   </head>
@@ -45,7 +49,9 @@
           <button>Order Now</button>
         </div>
       </div>
-      <div id="map" class="map"></div>
+      <div class="container flex center">
+        <div id="map" class="map"></div>
+      </div>
     </main>
     <footer class="flex align">
       <div class="container flex space-between">
