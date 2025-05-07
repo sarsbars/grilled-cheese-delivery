@@ -154,6 +154,13 @@ nav .nav-list li {
 /*---------------------------------------------------------------------------*/
 /*                             Map Section                                   */
 /*---------------------------------------------------------------------------*/
+
+.light-background {
+    background-color:#ffd8a6;
+    width: 100%;
+    margin: 0;
+}
+
 h3 {
   font-family: "Knewave", system-ui;  
   font-size: 3rem;
@@ -171,7 +178,7 @@ button {
     padding: 16px 24px;
     border-radius: 50px;
     margin-top: 40px;
-    background-color: #ff9100;
+    background-color: #fff;
     color: #000;;
     font-weight: 500;
 
@@ -184,7 +191,7 @@ button {
     height: 60svh;
     width: 70%;
     padding: 40px;
-    margin: 40px;
+    margin: 60px;
 }
 /*---------------------------------------------------------------------------*/
 /*                               Footer                                      */
