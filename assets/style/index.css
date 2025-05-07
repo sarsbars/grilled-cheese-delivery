@@ -176,7 +176,7 @@ button {
     font-weight: 500;
 
     &:hover {
-        box-shadow: 0 0 20px 5px rgba(244, 244, 244, 0.515); 
+        box-shadow: 0 0 10px 5px rgba(255, 145, 0, 0.515); 
     }
 }
 
@@ -194,7 +194,7 @@ footer {
     height: 60px;
     line-height: 2;
     color: #000;                                                
-    background-color: #ec9972;
+    background-color: #ff9100;
   
     .left-footer ul li{
         display: inline;
@@ -206,7 +206,7 @@ footer {
             padding: 5px;
             border-radius: 50%;
             font-size: 1.6rem;
-            background-color: rgb(255 255 255 / 10%);
+            background-color: #fff;
             backdrop-filter: blur(100px) saturate(140%);
             height: 30px;
             width: 30px;
@@ -220,7 +220,7 @@ footer {
             }
   
             &:hover {
-                box-shadow: 0 0 20px 5px rgba(244, 244, 244, 0.515); 
+                box-shadow: 0 0 10px 5px rgba(244, 244, 244, 0.515); 
             }
         }
     }

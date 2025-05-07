@@ -10,7 +10,7 @@ const map = new mapboxgl.Map({
     pitch: 40
 });
 
-const marker = new mapboxgl.Marker({color: '#af79ed'});
+const marker = new mapboxgl.Marker({color: '#ff9100'});
 const options = {
     enableHighAccuracy: true
 }
